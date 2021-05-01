@@ -1,0 +1,51 @@
+<!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Neueste <span>Projekte</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Projekt 1</h1>
+            <h2>Privates Geschäft</h2>
+            <p>Beschreibung des Projektes</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Projekt 2</h1>
+            <h2>Architekturbüro</h2>
+            <p>Beschreibung des Projektes</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Projekt 3</h1>
+            <h2>Rechtsanwaltskanzlei</h2>
+            <p>Beschreibung des Projektes</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Projekt 4</h1>
+            <h2>Arztpraxis</h2>
+            <p>Beschreibung des Projektes</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-1.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->

@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="http://localhost/Dolmeister/img/favicon.png">
+  <title>Dolmeister</title>
+</head>
+<body>
+
+  
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="index.html"><h1><span>D</span>OLMEISTER</h1></a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
+          <ul>
+            <li><a href="index.html#hero" data-after="Home">Start</a></li>
+            <li><a href="index.html#services" data-after="Service">Usluge</a></li>
+            <li><a href="index.html#about" data-after="About">O nama</a></li>
+            <li><a href="index.html#contact" data-after="Contact">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div id="tripetto"></div>
+  <script src="https://unpkg.com/tripetto-runner-foundation"></script>
+  <script src="https://unpkg.com/tripetto-runner-autoscroll"></script>
+  <script src="https://unpkg.com/tripetto-services"></script>
+  <script>
+  var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiRHRZbWpWRXJYWEJaNWZvWm5rdUFqQXo2ZGQrQ0k5ZFJnMUFBK0hJc1hqTT0iLCJkZWZpbml0aW9uIjoiTWNQMkF4eGJqWjNoZW9nZi8vd1lUQkFqZnltaUF3Y1o3Ni9yVCsvMDRzMD0iLCJ0eXBlIjoiY29sbGVjdCJ9.sAXjaPyy9Fi8FF8aySlMrf6WqVmMZgwnZS5Q8Y3JO4Q" });
+  
+  TripettoAutoscroll.run({
+      element: document.getElementById("tripetto"),
+      definition: tripetto.definition,
+      styles: tripetto.styles,
+      l10n: tripetto.l10n,
+      locale: tripetto.locale,
+      translations: tripetto.translations,
+      attachments: tripetto.attachments,
+      onSubmit: tripetto.onSubmit
+  });
+  </script>
+
+<br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+<section id="footer">
+    <div class="footer container">
+      <div class="brand"><h1><span>D</span>OLMEISTER</h1></div>
+      <h2>Vaša kompletna usluga prevođenja</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/xing.png"/></a>
+        </div>
+        <div class="social-item">
+          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png"/></a>
+        </div>
+      </div>
+      <p>© 2021 GOAT Web. All rights reserved.</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+</html>
