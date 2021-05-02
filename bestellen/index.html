@@ -83,10 +83,10 @@
           // with the sku or plan ID.
           stripe
             .redirectToCheckout({
-              mode: mode,
-              lineItems: items,
               payment_method_types: ['card'],
               payment_method_types: ['sofort'],
+              mode: mode,
+              lineItems: items,
               successUrl:
                 DOMAIN + 'success.html?session_id={CHECKOUT_SESSION_ID}',
               cancelUrl:
