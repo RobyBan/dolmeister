@@ -22,8 +22,8 @@
           <section class="container">
             <h1>Ihre Bestellung/Vaša narudžba</h1>
             <button
-              data-checkout-mode="subscription"
-              data-price-id="price_1J1pSfIDNC22nwBLcOCOWR9t"
+              data-checkout-mode="payment"
+              data-price-id="price_1ImGq9GIEy1KcdPjbqbI7C0C"
             >
               Lebenslauf/Životopis
             </button>
@@ -53,11 +53,11 @@
 
     <script>
       // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
-      var PUBLISHABLE_KEY = 'pk_live_51IuJtcIDNC22nwBL0ErYxnLd6j6zjIPKv5eCQZ2zPKvGUyJNanAFWNHrzPXK7E6VjZ22CUs5ouorC8TbycBhQv8q00OWMddHnR';
+      var PUBLISHABLE_KEY = 'pk_live_OOBiA98BNtrvu7c6NKf4fTa1006H13cnJd';
       // Replace with the domain you want your users to be redirected back to after payment
       var DOMAIN = location.href.replace(/[^/]*$/, '');
 
-      if (PUBLISHABLE_KEY === 'pk_live_51IuJtcIDNC22nwBL0ErYxnLd6j6zjIPKv5eCQZ2zPKvGUyJNanAFWNHrzPXK7E6VjZ22CUs5ouorC8TbycBhQv8q00OWMddHnR') {
+      if (PUBLISHABLE_KEY === 'pk_live_OOBiA98BNtrvu7c6NKf4fTa1006H13cnJd') {
         console.log(
           'Replace the hardcoded publishable key with your own publishable key: https://dashboard.stripe.com/test/apikeys'
         );
